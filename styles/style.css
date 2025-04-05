@@ -1,29 +1,75 @@
 :root {
     --mainbackground: #21093A;
+    --whitetext: #fff;
     --darkpurple: #4C217A;
     --lightpurple: #F4F2FD;
     --lightborder: #f2f2f2;
     --purple: #8900C9;
     --pink: #E1016E;
+    --violet: #961975;
     --buttongradient: linear-gradient(to right,
-     #E5006D, #C90171, #961975, #6F1F78, #56207A, #4C217A);
+    #E5006D, #C90171, #961975, #6F1F78, #56207A, #4C217A);
+    --buttongradientreverse: linear-gradient(to left,
+    #E5006D, #C90171, #961975, #6F1F78, #56207A, #4C217A)
 }
 
-/**/
+.button {
+    border-radius: 10px;
+    border: 1px solid var(--violet);
+    background-color: var(--mainbackground);
+    color: var(--whitetext);
+    padding: 20px 30px;
+}
+
+.button--white {
+    color: var(--mainbackground);
+    background-color: var(--whitetext);
+}
+
+.button--gradient {
+    background-image: var(--buttongradient);
+    border-style: none;
+}
+
+.button--padding-less {
+    padding: 16px 20px;
+}
+
+/* cover styles */
 
 .cover {
     width: 100%;
     padding: 20px 370px 0;
     background-color: var(--mainbackground);
+    color: var(--whitetext);
+    position: relative;
 }
 
-/**/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1em;
+}
+
+.cover__list {
+    display: flex;
+    gap: 30px;
+    text-transform: capitalize;
+}
+
+.cover__list__item {
+    padding: 0 0 10px;
+    border-bottom: 1px solid var(--pink);
+}
+
+/* target-audience styles */
 
 .target-audience {
     margin: 100px 370px 0;
 }
 
-/**/
+/* studying-process styles */
 
 .studying-process {
     margin: 100px 270px 0;
@@ -32,13 +78,13 @@
     border-radius: 20px;
 }
 
-/**/
+/* course-programm styles */
 
 .course-programm {
     margin: 100px 370px 0;
 }
 
-/**/
+/* participation styles */
 
 .participation {
     margin: 100px 370px 0;
@@ -47,7 +93,7 @@
     border-radius: 20px;
 }
 
-/**/
+/* price-list styles */
 
 .price-list {
     margin: 80px 0 0;
@@ -55,19 +101,19 @@
     padding: 80px 370px 92px;
 }
 
-/**/
+/* about styles */
 
 .about {
     margin: 100px 275px 0;
 }
 
-/**/
+/* qna styles */
 
 .qna {
     margin: 100px 570px 0 373px;
 }
 
-/**/
+/* application styles */
 
 .applications {
     margin: 100px 370px;
@@ -76,7 +122,7 @@
     border-radius: 20px;
 }
 
-/**/
+/* footer styles */
 
 .footer {
     width: 100%;

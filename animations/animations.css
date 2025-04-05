@@ -1,0 +1,14 @@
+@keyframes menu__item-animation {
+    to {
+        opacity: 0;
+    }
+}
+
+.cover__list__item:hover {
+    animation-name: menu__item-animation;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+
+/* Надо придумать способ сделать анимацию для рамки */
