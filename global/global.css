@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1920px;
+    background-color: #fff;
+    font-family: Gilroy, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--mainbackground);
+    line-height: 1.3em;
+}
+
+h1,
+h2, 
+h3,
+h4, 
+h5, 
+h6,
+p, 
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
