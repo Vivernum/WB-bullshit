@@ -1,14 +1,15 @@
-@keyframes menu__item-animation {
-    to {
-        opacity: 0;
-    }
-}
-
 .cover__list__item:hover {
-    animation-name: menu__item-animation;
-    animation-duration: 0.4s;
-    animation-fill-mode: forwards;
+    border-color: var(--pink);
 }
 
+.button:hover {
+    background-image: var(--buttongradient);
+}
 
-/* Надо придумать способ сделать анимацию для рамки */
+.button--gradient:hover {
+    background-image: var(--buttongradientreverse);
+}
+
+.button--white:hover {
+    background-image: var(--buttongradientreverse);
+}

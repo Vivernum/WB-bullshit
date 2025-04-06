@@ -1,20 +1,20 @@
 @font-face {
-    font-family: 'Gilroy';
+    font-family: Gilroy;
+    src: url(../fonts/Gilroy-Light.otf);
     font-weight: 400;
-    src: url(../fonts/Gilroy-Light.otf) format('otf');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: Gilroy;
+    src: url(../fonts/Gilroy-ExtraBold.otf);
     font-weight: 600;
-    src: url(../fonts/Gilroy-ExtraBold.otf) format('otf');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Dela Gothic One';
+    font-family: Dela Gothic One;
+    src: url(../fonts/DelaGothicOne-Regular.ttf);
     font-weight: 400;
-    src: url(../fonts/DelaGothicOne-Regular.ttf) format('ttf');
     font-display: swap;
 }
