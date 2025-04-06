@@ -16,7 +16,7 @@
 .button {
     border-radius: 10px;
     border: 1px solid var(--violet);
-    background-color: var(--mainbackground);
+    background-color: transparent;
     color: var(--whitetext);
     padding: 20px 30px;
     font-weight: 500;
@@ -43,6 +43,61 @@
 .button--larger-for-no-reason {
     width: 250px;
 }
+
+.background-ellipse--medium {
+    position: absolute;
+    width: 531px;
+    height: 531px;
+    background-color: var(--pink);
+    border-radius: 100%;
+    filter: blur(300px);
+    top: 83px;
+    right: 60px;
+    z-index: -1;
+}
+
+.background-ellipse--large {
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    background-color: var(--pink);
+    border-radius: 100%;
+    filter: blur(300px);
+    top: -351px;
+    left: -448px;
+    z-index: -1;
+}
+
+.background-ellipse--purple {
+    position: absolute;
+    width: 604px;
+    height: 604px;
+    background-color: var(--purple);
+    border-radius: 100%;
+    filter: blur(300px);
+    top: 159px;
+    right: 300px;
+    z-index: -1;
+}
+
+.oval {
+    position: absolute;
+    width: 256px;
+    height: 795px;
+    background-color: var(--whitetext);
+    border-radius: 100%;
+    filter: blur(110px);
+    top: 100px;
+    right: 433px;
+    transform: rotate(-5.6deg);
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.upper-in-z-axes {
+    z-index: 2;
+}
+
 /* cover styles */
 
 .cover {
@@ -51,6 +106,7 @@
     background-color: var(--mainbackground);
     color: var(--whitetext);
     position: relative;
+    overflow: hidden;
 }
 
 .menu {
@@ -140,6 +196,34 @@
 .cover__buttons {
     display: flex;
     gap: 20px;
+}
+
+.cover__image {
+    position: absolute;
+    width: 680px;
+    inset: 0 0 0 974px;
+    pointer-events: none;
+}
+
+.cover__box-with-lector-name {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--violet);
+    gap: 4px;
+    padding: 16px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 #5F0B57;
+    right: 360px;
+    bottom: 173px;
+}
+
+.cover__lector-name {
+    font-size: 20px;
+    line-height: 1;
+    text-transform: capitalize;
 }
 
 /* target-audience styles */
