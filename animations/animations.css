@@ -34,11 +34,11 @@
 
 .studying-process__card:hover .studying-process__ellipse {
     animation-name: ellipses;
-    animation-duration: 0.5s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
 }
 
 .studying-process__card:not(:hover) .studying-process__ellipse {
     animation-name: ellipses-reversed;
-    animation-duration: 0.5s;
+    animation-duration: 0.7s;
 }

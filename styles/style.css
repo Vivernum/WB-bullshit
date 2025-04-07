@@ -338,6 +338,7 @@
     background-color: var(--pink);
     border-radius: 100%;
     filter: blur(60px);
+    opacity: 0.6;
     top: -13px;
     left: 0;
     z-index: -1;
@@ -364,6 +365,29 @@
 
 .course-programm {
     margin: 100px 370px 0;
+}
+
+.course-programm__flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.course-programm__title {
+    font-family: Dela Gothic One;
+    font-size: 40px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: var(--darkpurple);
+    margin: 0 0 40px 0;
+}
+
+.course-programm__section {
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px var(--lightpurple);
+    border: 1px solid var(--lightborder);
 }
 
 /* participation styles */
