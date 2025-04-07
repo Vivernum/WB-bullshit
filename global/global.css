@@ -15,7 +15,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: var(--mainbackground);
-    line-height: 1.3em;
+    line-height: 1.3;
 }
 
 h1,
@@ -36,6 +36,10 @@ ul {
     padding: 0;
 }
 
+ol {
+    margin: 0;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -43,4 +47,5 @@ a {
 
 button {
     font: inherit;
+    cursor: pointer;
 }

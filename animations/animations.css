@@ -13,3 +13,32 @@
 .button--white:hover {
     background-image: var(--buttongradientreverse);
 }
+
+@keyframes ellipses {
+    to {
+        width: 196px;
+        height: 196px;
+    }
+}
+
+@keyframes ellipses-reversed {
+    from {
+        width: 196px;
+        height: 196px;
+    }
+    to {
+        width: 117px;
+        height: 117px;
+    }
+}
+
+.studying-process__card:hover .studying-process__ellipse {
+    animation-name: ellipses;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.studying-process__card:not(:hover) .studying-process__ellipse {
+    animation-name: ellipses-reversed;
+    animation-duration: 0.5s;
+}
