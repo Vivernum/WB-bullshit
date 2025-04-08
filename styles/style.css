@@ -13,6 +13,11 @@
     #E5006D, #C90171, #961975, #6F1F78, #56207A, #4C217A)
 }
 
+.label {
+    display: none;
+    color: var(--lightpurple);
+}
+
 .button {
     border-radius: 10px;
     border: 1px solid var(--violet);
@@ -42,6 +47,11 @@
 
 .button--larger-for-no-reason {
     width: 250px;
+}
+
+.button-for-forms {
+    width: 100%;
+    margin-bottom: 12px;
 }
 
 .background-ellipse--medium {
@@ -480,9 +490,59 @@
 
 .participation {
     margin: 100px 370px 0;
-    padding: 60px 98px 74px 100px;
+    padding: 60px 100px 74px;
     background-color: var(--mainbackground);
     border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parcticipation__info {
+    color: var(--whitetext);
+    width: 450px;
+}
+
+.participation__info__title {
+    font-family: Dela Gothic One;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1.45;
+    margin-bottom: 20px;
+}
+
+.participation__form {
+    width: 380px;
+    
+}
+
+.parcticipation-form__style {
+    display: flex;
+    flex-direction: column;
+    color: var(--whitetext);
+}
+
+input[type="text"], input[type="number"] {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--pink);
+}
+
+.input__name {
+    margin-bottom: 20px;
+}
+
+.input__telephone {
+    margin-bottom: 30px;
+}
+
+.policy-agreement {
+    font-size: 12px;
+    color: grey;
+}
+
+.policy-agreement__link {
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 /* price-list styles */
