@@ -495,6 +495,8 @@
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    overflow: hidden;
 }
 
 .parcticipation__info {
@@ -543,6 +545,16 @@ input[type="text"], input[type="number"] {
 .policy-agreement__link {
     text-decoration: underline;
     text-underline-position: under;
+}
+
+.background-ellipse--purple--participation-position{
+    top: -194px;
+    right: -300px;
+}
+
+.background-ellipse--medium--participation-position{
+    top: 14px;
+    left: -243px;
 }
 
 /* price-list styles */
