@@ -32,7 +32,7 @@
 .button--white {
     color: var(--mainbackground);
     background-color: var(--whitetext);
-    transition: background-image 0.5s;
+    transition: background-image 0.5s color 0.5s;
 }
 
 .button--gradient {
@@ -549,12 +549,18 @@ input[type="text"], input[type="number"] {
 
 .background-ellipse--purple--participation-position{
     top: -194px;
-    right: -300px;
+    right: -200px;
+    width: 423px;
+    height: 423px;
+    filter: blur(150px);
 }
 
 .background-ellipse--medium--participation-position{
     top: 14px;
     left: -243px;
+    filter: blur(150px);
+    width: 451px;
+    height: 451px;
 }
 
 /* price-list styles */
@@ -563,6 +569,105 @@ input[type="text"], input[type="number"] {
     margin: 80px 0 0;
     width: 100%;
     padding: 80px 370px 92px;
+    background-color: var(--lightborder);
+}
+
+.price-list__title {
+    font-family: Dela Gothic One;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.45;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.price-list__cards-section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.price-list__card {
+    padding: 20px 20px 33px;
+    border-radius: 16px;
+    width: 380px;
+    min-height: 630px;
+    background-color: var(--whitetext);
+    display: flex;
+    flex-direction: column;
+}
+
+.price-list__card--dark {
+    position: relative;
+    color: var(--whitetext);
+    background-color: var(--mainbackground);
+    overflow: hidden;
+}
+
+.price-list__card--dark .length{
+    background-color: var(--whitetext);
+    color: var(--mainbackground);
+}
+
+.price-list__card--dark .price-list__card__header__title
+{
+    text-transform: uppercase;
+}
+
+.background-ellipse--medium--price-list {
+    width: 266px;
+    height: 266px;
+    top: -100px;
+    left: 50px;
+    filter: blur(150px);
+}
+
+.price-list__card__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.price-list__card__header__title {
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.margin-for-list {
+    margin-bottom: 20px;
+}
+
+.course-programm__content__card__title--price {
+    font-family: Gilroy;
+    font-weight: 600;
+}
+
+.length {
+    font-size: 16px;
+    color: var(--whitetext);
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: var(--darkpurple);
+    display: inline;
+}
+
+.course-programm__content__card__list-item--crossed-out {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.price-list__cons {
+    margin-bottom: 30px;
+}
+
+.align-button {
+    align-self: center;
+    justify-self: flex-end;
+    margin-top: auto;
 }
 
 /* about styles */

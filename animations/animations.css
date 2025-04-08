@@ -12,6 +12,7 @@
 
 .button--white:hover {
     background-image: var(--buttongradientreverse);
+    color: var(--whitetext);
 }
 
 @keyframes ellipses {
