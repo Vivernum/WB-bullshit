@@ -729,6 +729,7 @@ input[type="text"], input[type="number"] {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    margin: 0 0 20px;
 }
 
 .about__results__main-section__back {
@@ -747,6 +748,33 @@ input[type="text"], input[type="number"] {
     min-height: 250px;
 }
 
+.about__mini-image {
+    display: flex;
+    width: 184px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.about__mini-image__item {
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    border: 1px solid var(--darkpurple);
+}
+
+.item-1 {
+    background-image: url(../images/results/results.png);
+}
+
+.item-2 {
+    background-image: url(../images/results/results-2.png);
+}
+
+.item-3 {
+    background-image: url(../images/results/results-3.png);
+}
 
 /* qna styles */
 

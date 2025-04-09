@@ -19,7 +19,7 @@ arrow_back.addEventListener('click', function () {
         i--;
     }
 });
-
+//  решить потом проблему с курсорами 
 arrow_forward.addEventListener('click', function() {
     if (image.src == array[array.length - 1].picture) {
         arrow_forward.style.cursor = 'default';
@@ -29,3 +29,5 @@ arrow_forward.addEventListener('click', function() {
         i++;
     }
 }); 
+
+// это был скрипт для результатов, далее будет для раскрытия карточек
