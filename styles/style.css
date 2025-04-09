@@ -708,6 +708,46 @@ input[type="text"], input[type="number"] {
     gap: 20px;
 }
 
+/* about__results supposed using of js */
+
+.about__results {
+    padding: 50px 140px;
+    background-color: var(--lightborder);
+    border-radius: 20px;
+
+}
+
+.about__results__title {
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.about__results__main-section {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__results__main-section__back {
+    cursor: pointer;
+}
+
+.about__results__main-section__forward {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.about__results__main-section__image {
+    max-width: 960px;
+    max-height: 550px;
+    min-width: 500px;
+    min-height: 250px;
+}
+
+
 /* qna styles */
 
 .qna {
