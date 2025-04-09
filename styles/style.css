@@ -337,6 +337,7 @@
     padding: 20px;
     position: relative;
     min-height: 200px;
+    overflow: hidden;
 }
 
 .studying-process__ellipse {
@@ -674,6 +675,37 @@ input[type="text"], input[type="number"] {
 
 .about {
     margin: 100px 275px 0;
+}
+
+.background-ellipse--purple__about {
+    width: 467px;
+    height: 467px;
+    filter: blur(70px);
+    right: 180px;
+}
+
+.about__lector {
+    padding: 207px 595px 180px 95px;
+    position: relative;
+}
+
+.cover__image--about {
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+}
+
+.about__lector__info__title {
+    font-family: Dela Gothic One;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.course-programm__content__card__list--about {
+    width: 460px;
+    gap: 20px;
 }
 
 /* qna styles */
