@@ -43,3 +43,7 @@
     animation-name: ellipses-reversed;
     animation-duration: 0.7s;
 }
+
+.qna__main__section:hover .qna__main__section__hidden-text {
+    height: 240px;
+}

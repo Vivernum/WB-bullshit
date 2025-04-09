@@ -782,6 +782,46 @@ input[type="text"], input[type="number"] {
     margin: 100px 570px 0 373px;
 }
 
+.qna__title {
+    font-family: Dela Gothic One;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.qna__main {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 780px;
+}
+
+.qna__main__section {
+    border-bottom: 1px solid var(--pink);
+}
+
+.qna__main__section__flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 20px;
+}
+
+.qna__main__section__title {
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.qna__main__section__hidden-text {
+    padding: 0 20px 0;
+    flex-direction: column;
+    gap: 10px;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    transition: height 0.7s;
+}
+
 /* application styles */
 
 .applications {
