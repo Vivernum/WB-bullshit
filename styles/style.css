@@ -26,19 +26,16 @@
     padding: 20px 30px;
     font-weight: 500;
     line-height: 1;
-    transition: background-image 0.5s;
 }
 
 .button--white {
     color: var(--mainbackground);
     background-color: var(--whitetext);
-    transition: background-image 0.5s color 0.5s;
 }
 
 .button--gradient {
     background-image: var(--buttongradient);
     border-style: none;
-    transition: background-image 0.5s;
 }
 
 .button--padding-less {
